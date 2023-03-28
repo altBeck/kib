@@ -49,7 +49,7 @@
 }
 
 .poa__navbar-links_stake {
-  background-color: white;
+  background-color: #377666;
   padding: .75rem 1.25rem;
   border-radius: 3.5rem;
   border: none;
@@ -60,6 +60,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.poa__navbar-links_stake a {
+  color: white;
 }
 
 .poa__navbar-menu_container {
