@@ -7,10 +7,14 @@
 }
 
 .header--container img {
-  width: auto;
+  width: -webkit-fill-available;
   height: 320px;
   position: absolute;
   margin-left: 46em;
+}
+
+.header--sub_container {
+  display: flex;
 }
 
 .header--sub_container h1 {
@@ -23,6 +27,11 @@
   line-height: 29px;
   margin-top: 6px;
   width: 50%;
+}
+
+.header--left_container {
+  display: block;
+  width: 100%;
 }
 
 .main__button {
@@ -42,4 +51,27 @@
 
 .main__button a {
   color: white;
+}
+
+@media screen and (max-width: 640px) {
+  .header--container {
+    display: block;
+    margin-top: 1em;
+    padding: 8px;
+  }
+
+  .header--sub_container h1 {
+    font-size: 32px;
+    width: auto;
+  }
+
+  .header--sub_container p {
+    font-size: 18px;
+    width: 90%;
+  }
+
+
+  .header--container img {
+    display: none;
+  }
 }
