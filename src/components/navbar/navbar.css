@@ -121,5 +121,6 @@
   .poa__navbar-menu_container {
     width: 100%;
     align-items: baseline;
+    padding-bottom: 2.8em;
   }
 }
