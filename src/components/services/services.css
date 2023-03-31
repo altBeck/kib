@@ -78,6 +78,7 @@
   .services--header h2 {
     font-size: 64px;
     line-height: 75.2px;
+    font-family: var(--font-family);
   }
 
   .services--header p {
