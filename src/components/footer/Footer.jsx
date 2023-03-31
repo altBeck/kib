@@ -3,7 +3,21 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className="footer--container">
+      <div className="footer--header">
+        <h1>KIBOBO</h1>
+        <p>Nigeria's leading energy distributor</p>
+      </div>
+
+      <div className="nav--links">
+        <a href="#home">Home</a>
+        <a>Services</a>
+        <a>Products</a>
+        <a>Work</a>
+      </div>
+
+      <div className="line"></div>
+    </div>
   )
 }
 
