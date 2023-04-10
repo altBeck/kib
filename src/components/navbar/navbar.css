@@ -104,8 +104,12 @@
   }
 
   .poa__navbar-menu_container-links {
-    text-align: left;
+    text-align: center;
     width: 100%;
+  }
+
+  .poa__navbar-menu_container-links p {
+    margin-bottom: 1.25em;
   }
 
   .poa__navbar-menu {
@@ -120,6 +124,7 @@
 
   .poa__navbar-menu_container {
     width: 100%;
+    height: 100%;
     align-items: baseline;
     padding-bottom: 2.8em;
   }

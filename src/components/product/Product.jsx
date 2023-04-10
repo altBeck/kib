@@ -6,7 +6,7 @@ import icn from '../../assets/chevron-right.svg';
 
 const Product = () => {
   return (
-    <div className="product--container">  
+    <div id="product" className="product--container">  
       <div>
         <img className="prd-img" src={prd} alt="green inverter"/>
       </div>

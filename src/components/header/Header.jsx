@@ -5,7 +5,7 @@ import solar from '../../assets/solar-panel-img.png';
 
 const Header = () => {
   return (
-    <div className="header--container">
+    <div id="home" className="header--container">
       <div className="header--sub_container">
         <div className="header--left_container">
           <h1>Power your future with renewable energy.</h1>

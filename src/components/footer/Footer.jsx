@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
 
       <div className="nav--links">
-        <a href="#home">Home</a>
+        <a className="home" href="/">Home</a>
         <a>Services</a>
         <a>Products</a>
         <a>Work</a>
