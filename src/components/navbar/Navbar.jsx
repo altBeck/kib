@@ -4,8 +4,8 @@ import logo from '../../assets/logo.svg';
 import './navbar.css';
 
 const Menu = () => (
-  <><p><a href="#services">Services</a></p>
-  <p><a href="#product">Products</a></p>
+  <><p><a href="#product">Product</a></p>
+  <p><a href="#services">Services</a></p>
   <p><a href="#work">How It Works</a></p>
   <button type="button" className="poa__navbar-links_stake"><a href="#">Contact us</a></button></>
 )
