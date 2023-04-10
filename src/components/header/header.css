@@ -2,25 +2,25 @@
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 4em;
-  display: flex;
+  margin-top: 6em;
+  padding: 3rem;
+  background-color: #1C2B2E;
+  border-radius: 20px;
 }
 
-.header--container img {
-  width: -webkit-fill-available;
-  height: 320px;
-  position: absolute;
-  margin-left: 40em;
+.header--module {
+  display: flex;
 }
 
 .header--sub_container {
-  display: flex;
+  display: block;
+  color: white;
 }
 
 .header--sub_container h1 {
-  width: 65%;
   font-family: var(--font-family);
-  font-size: 3rem;
+  font-weight: 600;
+  line-height: 76.5px;
 }
 
 .header--sub_container p {
@@ -28,18 +28,32 @@
   font-weight: 400;
   line-height: 29px;
   margin-top: 6px;
-  width: 50%;
+  width: 70%;
 }
 
 .header--left_container {
-  display: block;
+  display: relative;
   width: 100%;
 }
+
+.header--module img {
+  border-radius: 10px;
+}
+
+.header__img {
+  width: 650px;
+  height: auto;
+}
+
+.mob__img {
+  display: none;
+}
+
 
 .main__button {
   background-color: #377666;
   padding: .75rem 1.25rem;
-  border-radius: 3.5rem;
+  border-radius: .5rem;
   border: none;
   line-height: 25px;
   font-weight: 500;
@@ -55,31 +69,65 @@
   color: white;
 }
 
+.footer-note {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  font-family: var(--font-family);
+  font-size: 40px;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 640px) {
   .header--container {
     display: block;
-    margin-top: 2em;
-    padding: 8px;
+    margin-top: 3em !important;
+    margin: 8px;
+    padding: 1.2rem;
+  }
+
+  .header--module {
+    display: block;
+  }
+
+  .header--sub_container {
+    display: block;
   }
 
   .header--sub_container h1 {
-    font-size: 32px;
-    width: auto;
+    font-size: 28px;
+    max-width: 100%;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 1rem;
   }
 
   .header--sub_container p {
     font-size: 18px;
-    width: 90%;
+    width: 99%;
+    line-height: normal;
+    padding-bottom: 1rem;
   }
 
+  .header__img {
+    display: none;
+  }
 
-  .header--container img {
+  .mob__img {
     display: block;
-    position: relative;
-    padding: 0;
-    margin-left: 0;
-    margin-top: 3em;
-    border-radius: 12px;
-    z-index: -1;
+    max-width: 100%;
+    height: auto;
   }
+
+  .header--sub_container button {
+    width: 100%;
+  }
+
+  .footer-note {
+    margin-top: 2rem;
+    font-size: 24px;
+    padding: 8px;
+  }
+
 }
