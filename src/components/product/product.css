@@ -39,6 +39,10 @@
     margin-top: 10em;
   }
 
+  .product--content {
+    flex-direction: column;
+  }
+
   .product--sub_container {
     width: fit-content;
     font-size: 18px;
