@@ -4,8 +4,13 @@
   margin-right: auto;
   padding-top: 12em;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+.product--content {
+  display: flex;
+  padding-top: 4em;
 }
 
 .prd-img {
@@ -44,6 +49,7 @@
 
   .prd-img {
     height: auto;
+    margin-top: 3rem;
   }
 
   .prd--sub {
