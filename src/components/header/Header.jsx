@@ -6,7 +6,7 @@ import sol from '../../assets/sol.png';
 
 const Header = () => {
   return (
-    <><div id="home" className="header--container">
+    <div id="home" className="header--container">
       <div className="header--module">
 
         <div className="header--sub_container">
@@ -30,8 +30,7 @@ const Header = () => {
           <img src={sol} alt="workers installing a solar panel" />
         </div>
       </div>
-
-    </div><p className="footer-note">Clean energy management for your home.</p></>
+    </div>
   )
 }
 

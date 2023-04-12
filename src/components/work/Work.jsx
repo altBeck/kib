@@ -6,14 +6,13 @@ import './work.css';
 const Work = () => {
   return (
     <div id="work" className="work__container">
-      <div className="work--header">
-        <h3>How It Works</h3>
-      </div>
 
       <div className="work--main">
         <img src={info} alt="inverter information"/>
 
         <div className="work--content">
+
+          <h3>How It Works</h3>
 
           <ul>
             <li>Our hybrid solar systems include solar panels, a smart inverter & battery.</li>

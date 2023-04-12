@@ -18,17 +18,31 @@
 }
 
 .work--main img {
-  width: 60%;
+  width: 50%;
   height: auto;
 }
 
 .work--content {
   margin-top: 5em;
   width: 45%;
+  color: white;
+  background: #152435;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 2rem;
+}
+
+.work--content h3 {
+  font-size: 48px;
+  padding-bottom: 12px;
 }
 
 .work--content li {
   margin-bottom: .5em;
+  color: white;
+  font-family: var(--font-text);
 }
 
 @media screen and (max-width: 640px) {
@@ -46,8 +60,13 @@
     font-family: var(--font-family);
   }
 
+  .work--content h3 {
+    font-size: 32px;
+  }
+
   .work--main {
     display: block;
+    padding-top: 4rem;
   }
 
   .work--main img {
@@ -57,5 +76,9 @@
   .work--content {
     width: 100%;
     margin-top: 1.5em;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
   }
 }
