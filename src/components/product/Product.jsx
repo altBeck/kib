@@ -1,7 +1,7 @@
 import React from 'react';
 import './product.css';
 
-import prd from '../../assets/product.png';
+import prd from '../../assets/panel.png';
 import icn from '../../assets/chevron-right.svg';
 
 const Product = () => {

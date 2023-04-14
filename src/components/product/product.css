@@ -11,6 +11,8 @@
 .product--content {
   display: flex;
   padding-top: 4em;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .prd-img {
